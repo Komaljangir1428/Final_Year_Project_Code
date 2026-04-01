@@ -1,0 +1,18 @@
+# Face Recognition (no dlib - works with Python 3.13)
+face-library>=1.1.3
+opencv-python>=4.5.3,<4.7
+numpy>=1.24.0,<2
+Pillow>=10.0.0
+
+# Backend
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# MongoDB
+motor>=3.3.0
+pymongo>=4.6.0
+python-dotenv>=1.0.0
+
+# Excel export
+openpyxl>=3.1.0
